@@ -15,8 +15,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
-<link rel="preload" as="image" href="assets/img/capa-hero.webp">
-<link rel="stylesheet" href="assets/css/style.css?v=2">
+<link rel="preload" as="image" href="assets/img/capa-hero.webp" media="(min-width: 641px)">
+<link rel="preload" as="image" href="assets/img/capa-hero-m.webp" media="(max-width: 640px)">
+<link rel="stylesheet" href="assets/css/style.css?v=5">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -94,7 +95,7 @@
 <!-- ======================= HERO ======================= -->
 <section class="hero" id="inicio">
   <div class="hero-media" data-parallax>
-    <img src="assets/img/capa-hero.webp" srcset="assets/img/capa-hero-m.webp 1000w, assets/img/capa-hero.webp 2200w" sizes="100vw" alt="Consultório do Instituto Lumière, com estrutura moderna e iluminação acolhedora" fetchpriority="high">
+    <picture><source media="(max-width: 640px)" srcset="assets/img/capa-hero-m.webp"><img src="assets/img/capa-hero.webp"  alt="Consultório do Instituto Lumière, com estrutura moderna e iluminação acolhedora" fetchpriority="high" width="2200" height="1228"></picture>
   </div>
 
   <div class="hero-body wrap">
@@ -648,6 +649,6 @@
   </div>
 </dialog>
 
-<script src="assets/js/main.js?v=2" defer></script>
+<script src="assets/js/main.js?v=3" defer></script>
 </body>
 </html>
