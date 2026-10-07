@@ -7,21 +7,21 @@
 
   /* ---------------- dados ---------------- */
   const CASES = [
-    { id: 'caso-01', w: 1400, h: 789, tag: 'Prótese protocolo', title: 'De volta à mesa, sem medo.',
+    { id: 'caso-01', w: 1200, h: 600, tag: 'Prótese protocolo', title: 'De volta à mesa, sem medo.',
       text: 'Sem dentes na arcada, a paciente convivia com a insegurança na hora de comer e de sorrir. Com a prótese protocolo sobre implantes, os dentes fixos devolveram firmeza para mastigar e naturalidade ao sorriso.' },
-    { id: 'caso-11', w: 1400, h: 788, tag: 'Prótese protocolo', title: 'Um sorriso que acompanha a idade.',
+    { id: 'caso-11', w: 1200, h: 900, tag: 'Prótese protocolo', title: 'Um sorriso que acompanha a idade.',
       text: 'Dentes desgastados e escurecidos deram lugar a uma reabilitação com protocolo, pensada para respeitar a harmonia do rosto. Natural, firme e com a cara da paciente.' },
-    { id: 'caso-04', w: 1000, h: 1333, tag: 'Prótese protocolo', title: 'Sorrir de novo, de boca aberta.',
+    { id: 'caso-04', w: 1200, h: 900, tag: 'Prótese protocolo', title: 'Sorrir de novo, de boca aberta.',
       text: 'Com poucos dentes e muita insegurança para sorrir, o paciente fez a reabilitação completa com protocolo. O planejamento digital guiou cada implante até o resultado final.' },
-    { id: 'caso-06', w: 1100, h: 1083, tag: 'Prótese protocolo', title: 'Firmeza para mastigar o que gosta.',
+    { id: 'caso-06', w: 1200, h: 900, tag: 'Prótese protocolo', title: 'Firmeza para mastigar o que gosta.',
       text: 'Dentes comprometidos que vinham sendo remendados por anos. A prótese protocolo trouxe estabilidade e devolveu o prazer de comer sem preocupação.' },
-    { id: 'caso-07', w: 1280, h: 720, tag: 'Prótese protocolo', title: 'Luz no sorriso, leveza na rotina.',
+    { id: 'caso-07', w: 1200, h: 600, tag: 'Prótese protocolo', title: 'Luz no sorriso, leveza na rotina.',
       text: 'Dentes escurecidos e com perdas foram substituídos por uma arcada fixa sobre implantes. Um sorriso claro, proporcional e seguro para o dia a dia.' },
-    { id: 'caso-10', w: 1000, h: 1333, tag: 'Reabilitação do sorriso', title: 'O mesmo sorriso, mais confiante.',
+    { id: 'caso-10', w: 1200, h: 900, tag: 'Reabilitação do sorriso', title: 'O mesmo sorriso, mais confiante.',
       text: 'Com cor, forma e alinhamento planejados para o rosto da paciente, a reabilitação deixou o sorriso mais harmônico sem perder a naturalidade.' },
-    { id: 'caso-02', w: 889, h: 390, tag: 'Facetas e coroas', title: 'Proporção e harmonia.',
+    { id: 'caso-02', w: 1200, h: 545, tag: 'Facetas e coroas', title: 'Proporção e harmonia.',
       text: 'Espaços, diferenças de tamanho e desgastes corrigidos com facetas e coroas. Detalhe por detalhe, para um resultado equilibrado e natural.' },
-    { id: 'caso-03', w: 1150, h: 482, tag: 'Facetas', title: 'Dentes fraturados, sorriso inteiro.',
+    { id: 'caso-03', w: 1200, h: 600, tag: 'Facetas', title: 'Dentes fraturados, sorriso inteiro.',
       text: 'Os dentes da frente, fraturados e desgastados, foram restaurados com facetas. Forma e cor devolvidas com precisão.' }
   ];
 
